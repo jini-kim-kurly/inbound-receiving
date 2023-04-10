@@ -1,4 +1,6 @@
-
+dependencies {
+    implementation project(path: ':inbound-external-api')
+}
 
 bootJar.enabled =false
 jar.enabled = true
