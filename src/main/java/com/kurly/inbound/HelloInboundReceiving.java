@@ -8,8 +8,7 @@ import lombok.Getter;
 public class HelloInboundReceiving {
 
     public String getMessageFromExternal(){
-        HelloExternalApi helloExternalApi = new HelloExternalApi();
-        return helloExternalApi.getMessage("RECEIVING");
+        return "";
     }
 
 }
